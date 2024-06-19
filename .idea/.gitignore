@@ -1,0 +1,9 @@
+# 默认忽略的文件
+/shelf/
+/workspace.xml
+# 首先，忽略所有文件
+*
+# 然後，透過 "!" 前綴來重新包含 .py 文件
+!*.py
+# 重新包含 .gitignore 文件和其他特定目錄或文件
+!.gitignore
